@@ -19,7 +19,7 @@ bool isIsosceles(double a, double b, double c) {
     return (a == b) || (b == c) || (a == c);
 }
 
-int main() {
+int main() { //какой то коментарий так сказали
     double a, b, c;
     cout << "Введите длины сторон треугольника (a, b, c): ";
     cin >> a >> b >> c;
